@@ -16,8 +16,11 @@ html {
  * Remove default margin.
  */
 
-body {
+ body {
   margin: 0;
+  padding: 0;
+  height: 1000px; /* Adjust the height based on your content */
+  position: relative; /* Make the body a positioned container for absolute positioning */
 }
 
 /* HTML5 display definitions

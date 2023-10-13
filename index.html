@@ -22,6 +22,42 @@
     }
 </style>
 
+<script>
+  // JavaScript code for the typing and deleting effect
+  const text = "Click any of the below Socials to connect with me !";
+  const typingSpeed = 100; // Adjust the typing speed (milliseconds per character)
+  const deleteSpeed = 50; // Adjust the speed for deleting (milliseconds per character)
+  const pauseTime = 2000; // Adjust the time to pause before typing again (milliseconds)
+
+  let i = 0;
+  let isTyping = true;
+
+  const typeAndDelete = () => {
+    if (isTyping) {
+      if (i < text.length) {
+        document.getElementById("typing-effect").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeAndDelete, typingSpeed);
+      } else {
+        isTyping = false;
+        setTimeout(typeAndDelete, pauseTime);
+      }
+    } else {
+      if (i > 0) {
+        document.getElementById("typing-effect").innerHTML = text.substring(0, i - 1);
+        i--;
+        setTimeout(typeAndDelete, deleteSpeed);
+      } else {
+        isTyping = true;
+        setTimeout(typeAndDelete, typingSpeed);
+      }
+    }
+  }
+
+  window.onload = typeAndDelete;
+</script>
+
+
 </head>
 
 <body>
@@ -34,7 +70,7 @@
         
         <h1 role="heading">Naman Bagdiya</h1>
 
-        <p><u>Click any of the below Socials to connect with me !</u></p>
+        <p><span id="typing-effect"></span></p>
 
         <!-- ----------- Social links are below --------------- -->
         
@@ -66,10 +102,9 @@
         <a class="button button-last-fm" href="https://www.last.fm/user/NamanOG" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/last-fm.svg" alt="">Last.fm</a><br>
 
         <!-- WhatsApp -->
-        <a class="button button-whatsapp" href="https://https://wa.me/9300681625?text=I%20wanted%20to%20Connect%20with%20you" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/whatsapp.svg" alt="">WhatsApp</a><br>
+        <a class="button button-whatsapp" href="https://wa.me/9300681625?text=I%20wanted%20to%20Connect%20with%20you" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/whatsapp.svg" alt="">WhatsApp</a><br>
         <br>
        
-        <p>Made by - <a href="https://github.com/NamanOG">Naman Bagdiya</a></p>
       </div>
     </div>
   </div>
