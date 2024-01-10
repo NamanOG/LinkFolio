@@ -33,7 +33,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Brand Icons */
+/* Socials */
 
 .icon {
   padding: 0px 8px 3.5px 0px;
@@ -42,7 +42,7 @@ button:hover,
   height: 20px;
 }
 
-/* Brand Styles */
+/* Social */
 
 .button.button-default {
   color: #ffffff;
