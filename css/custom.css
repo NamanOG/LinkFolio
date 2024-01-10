@@ -13,9 +13,29 @@ body {
 }
 
 #typing-effect {
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
+  color: #00ffaa;
   margin-top: 20px;
+  overflow: hidden;
+  display: inline-block;
 }
+
+#typing-effect::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 
 html,
 body {

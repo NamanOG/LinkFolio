@@ -73,39 +73,40 @@
 
   <!-- Typing text effect -->
   <div id="typing-effect"></div>
-  <script>
-    const text = "Click any of the below Socials to connect with me !";
-    const typingSpeed = 90;
-    const deleteSpeed = 40;
-    const pauseTime = 2000;
+<script>
+  const text = "Click any of the below Socials to connect with me !";
+  const typingSpeed = 90;
+  const deleteSpeed = 40;
+  const pauseTime = 2000;
 
-    let i = 0;
-    let isTyping = true;
+  let i = 0;
+  let isTyping = true;
 
-    const typeAndDelete = () => {
-      if (isTyping) {
-        if (i < text.length) {
-          document.getElementById("typing-effect").innerHTML += text.charAt(i);
-          i++;
-          setTimeout(typeAndDelete, typingSpeed);
-        } else {
-          isTyping = false;
-          setTimeout(typeAndDelete, pauseTime);
-        }
+  const typeAndDelete = () => {
+    if (isTyping) {
+      if (i < text.length) {
+        document.getElementById("typing-effect").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeAndDelete, typingSpeed);
       } else {
-        if (i > 0) {
-          document.getElementById("typing-effect").innerHTML = text.substring(0, i - 1);
-          i--;
-          setTimeout(typeAndDelete, deleteSpeed);
-        } else {
-          isTyping = true;
-          setTimeout(typeAndDelete, typingSpeed);
-        }
+        isTyping = false;
+        setTimeout(typeAndDelete, pauseTime);
+      }
+    } else {
+      if (i > 0) {
+        document.getElementById("typing-effect").innerHTML = text.substring(0, i - 1);
+        i--;
+        setTimeout(typeAndDelete, deleteSpeed);
+      } else {
+        isTyping = true;
+        setTimeout(typeAndDelete, typingSpeed);
       }
     }
+  }
 
-    window.onload = typeAndDelete;
-  </script>
+  window.onload = typeAndDelete;
+</script>
+
 
 </body>
 
