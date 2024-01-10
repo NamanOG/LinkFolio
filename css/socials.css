@@ -15,18 +15,21 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
+
 button:hover,
 .button:focus {
   color: #212121;
   border-color: #888;
   outline: #7AB8FF solid 3px
 }
+
 .button.button-primary {
   color: #fff;
   filter: brightness(90%);
 }
+
 .button.button-primary:hover,
 .button.button-primary:focus {
   color: #fff;
@@ -48,6 +51,7 @@ button:hover,
   color: #ffffff;
   background-color: #2457F5;
 }
+
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%);
@@ -58,6 +62,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(to bottom, #ff2c4c, #FA233B);
 }
+
 .button.button-apple-music:hover,
 .button.button-apple-music:focus {
   filter: brightness(90%);
@@ -68,6 +73,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
 }
+
 .button.button-apple-music-alt:hover,
 .button.button-apple-music-alt:focus {
   filter: brightness(90%);
@@ -78,16 +84,19 @@ button:hover,
   color: #ffffff;
   background-color: #5865f2;
 }
+
 .button.button-discord:hover,
 .button.button-discord:focus {
   filter: brightness(90%);
 }
+
 /* Figma */
 .button.button-figma {
   color: #ffffff;
   background-color: #000000;
   border: 1px solid #FFFFFF;
 }
+
 .button.button-figma:hover,
 .button.button-figma:focus {
   filter: brightness(90%);
@@ -98,6 +107,7 @@ button:hover,
   color: #ffffff;
   background-color: #1DBF73;
 }
+
 .button.button-fiverr:hover,
 .button.button-fiverr:focus {
   filter: brightness(90%);
@@ -109,6 +119,7 @@ button:hover,
   background-color: #000000;
   border: 1px solid #FFFFFF;
 }
+
 .button.button-github:hover,
 .button.button-github:focus {
   filter: brightness(90%);
@@ -119,6 +130,7 @@ button:hover,
   color: #ffffff;
   background-color: #6151b2;
 }
+
 .button.button-gitlab:hover,
 .button.button-gitlab:focus {
   filter: brightness(90%);
@@ -129,6 +141,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
+
 .button.button-instagram:hover,
 .button.button-instagram:focus {
   filter: brightness(90%);
@@ -139,6 +152,7 @@ button:hover,
   color: #ffffff;
   background-color: #D51007;
 }
+
 .button.button-last-fm:hover,
 .button.button-last-fm:focus {
   filter: brightness(90%);
@@ -149,6 +163,7 @@ button:hover,
   color: #ffffff;
   background-color: #2867b2;
 }
+
 .button.button-linked:hover,
 .button.button-linked:focus {
   filter: brightness(90%);
@@ -160,6 +175,7 @@ button:hover,
   background-color: #e0a500;
   border: 1px solid #000000;
 }
+
 .button.button-monkeytype:hover,
 .button.button-monkeytype:focus {
   filter: brightness(90%);
@@ -171,6 +187,7 @@ button:hover,
   border: 1px solid #212121;
   background-color: #ffffff;
 }
+
 .button.button-notion:hover,
 .button.button-notion:focus {
   filter: brightness(90%);
@@ -181,6 +198,7 @@ button:hover,
   color: #ffffff;
   background-color: #5A31F4;
 }
+
 .button.button-shop:hover,
 .button.button-shop:focus {
   filter: brightness(90%);
@@ -191,6 +209,7 @@ button:hover,
   color: #ffffff;
   background-color: #ff5500;
 }
+
 .button.button-soundcloud:hover,
 .button.button-soundcloud:focus {
   filter: brightness(90%);
@@ -201,6 +220,7 @@ button:hover,
   color: #191414;
   background-color: #1db954;
 }
+
 .button.button-spotify:hover,
 .button.button-spotify:focus {
   filter: brightness(90%);
@@ -212,6 +232,7 @@ button:hover,
   background-color: #000000;
   border: 1px solid #FFFFFF;
 }
+
 .button.button-vsco:hover,
 .button.button-vsco:focus {
   filter: brightness(90%);
@@ -223,6 +244,7 @@ button:hover,
   background-color: #000000;
   border: 1px solid #FFFFFF;
 }
+
 .button.button-web:hover,
 .button.button-web:focus {
   filter: brightness(90%);
@@ -233,6 +255,7 @@ button:hover,
   color: #ffffff;
   background-color: #455a64;
 }
+
 .button.button-whatsapp:hover,
 .button.button-whatsapp:focus {
   filter: brightness(90%);
