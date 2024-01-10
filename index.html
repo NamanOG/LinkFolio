@@ -3,111 +3,103 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Naman Bagdiya | Linktree</title>
-  <meta name="description" content="https://namanog.github.io/Linktree">
+  <title>Naman Bagdiya | Futuristic Link Hub</title>
+  <meta name="description" content="Connect with Naman Bagdiya through various platforms">
   <meta name="author" content="Naman Bagdiya">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/skeleton-dark.css">
-  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/socials.css">
   <link rel="icon" type="image/png" href="images/link.png">
-  
-  <style>
-    body {
-        background-image: url('images/Background/BG.gif'); /* Adjust the path to your image */
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover; /* Optional, this property can help with image scaling */
-    }
-</style>
-
-<script>
-  // JavaScript code for the typing and deleting effect
-  const text = "Click any of the below Socials to connect with me !";
-  const typingSpeed = 100; // Adjust the typing speed (milliseconds per character)
-  const deleteSpeed = 50; // Adjust the speed for deleting (milliseconds per character)
-  const pauseTime = 2000; // Adjust the time to pause before typing again (milliseconds)
-
-  let i = 0;
-  let isTyping = true;
-
-  const typeAndDelete = () => {
-    if (isTyping) {
-      if (i < text.length) {
-        document.getElementById("typing-effect").innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typeAndDelete, typingSpeed);
-      } else {
-        isTyping = false;
-        setTimeout(typeAndDelete, pauseTime);
-      }
-    } else {
-      if (i > 0) {
-        document.getElementById("typing-effect").innerHTML = text.substring(0, i - 1);
-        i--;
-        setTimeout(typeAndDelete, deleteSpeed);
-      } else {
-        isTyping = true;
-        setTimeout(typeAndDelete, typingSpeed);
-      }
-    }
-  }
-
-  window.onload = typeAndDelete;
-</script>
-
-
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="column" style="margin-top: 10%">
+      <div class="column">
 
-        <img src="images/Self/lofi_canvas.png" class="avatar" srcset="images/Self/canvas2x.jpg" alt="Profile Picture">
-        
+        <img src="images/Self/pfp.png" class="avatar" alt="Profile Picture">
+
         <h1 role="heading">Naman Bagdiya</h1>
 
         <p><span id="typing-effect"></span></p>
 
-        <!-- ----------- Social links are below --------------- -->
-        
-        <!-- Portfolio -->
-        <a class="button button-read-cv" href="https://namanbagdiya.co" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/read-cv.svg" alt="">Portfolio</a><br>
+        <!-- Social links with hover animation -->
 
-        <!-- LinkedIn -->
-        <a class="button button-linked" href="https://linkedin.co.in/namanbagdiya" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">LinkedIn</a><br>
+        <a class="button button-read-cv" href="https://namanbagdiya.co" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/portfolio.svg" alt="">Explore Portfolio</a>
 
-        <!-- Instagram -->
-        <a class="button button-instagram" href="https://instagram.com/namaan_b" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/instagram.svg" alt="">Instagram</a><br>
+        <a class="button button-linked" href="https://linkedin.com/in/namanbagdiya" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">LinkedIn</a>
 
-        <!-- Discord -->
-        <a class="button button-discord" href="https://discordapp.com/users/932995196101201951" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/discord.svg" alt="">Discord</a><br>
+        <a class="button button-instagram" href="https://instagram.com/namaan_b" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/instagram.svg" alt="">Instagram</a>
 
-        <!-- GitHub -->
-        <a class="button button-github" href="https://github.com/NamanOG" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/github.svg" alt="">GitHub</a><br>
+        <a class="button button-discord" href="https://discordapp.com/users/932995196101201951" target="_blank"
+          rel="noopener" role="button"><img class="icon" src="images/icons/discord.svg" alt="">Discord</a>
 
-        <!-- GitLab -->
-        <a class="button button-gitlab" href="https://gitlab.com/NamanOG" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/gitlab.svg" alt="">GitLab</a><br>
+        <a class="button button-github" href="https://github.com/NamanOG" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/github.svg" alt="">GitHub</a>
 
-        <!-- Notion -->
-        <a class="button button-notion" href="https://www.notion.so/namanog" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/notion.svg" alt="">Notion</a><br>
+        <a class="button button-gitlab" href="https://gitlab.com/NamanOG" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/gitlab.svg" alt="">GitLab</a>
 
-        <!-- Apple Music -->
-        <a class="button button-apple-music" href="https://music.apple.com/profile/NamanOG" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/apple-music.svg" alt="">Apple Music</a><br>            
+        <a class="button button-notion" href="https://www.notion.so/namanog" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/notion.svg" alt="">Notion</a>
 
-        <!-- Last.fm -->
-        <a class="button button-last-fm" href="https://www.last.fm/user/NamanOG" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/last-fm.svg" alt="">Last.fm</a><br>
+        <a class="button button-apple-music" href="https://music.apple.com/profile/NamanOG" target="_blank"
+          rel="noopener" role="button"><img class="icon" src="images/icons/apple-music-dark.svg" alt="">Apple Music</a>
 
-        <!-- WhatsApp -->
-        <a class="button button-whatsapp" href="https://wa.me/9300681625?text=I%20wanted%20to%20Connect%20with%20you" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/whatsapp.svg" alt="">WhatsApp</a><br>
-        <br>
-       
+        <a class="button button-last-fm" href="https://www.last.fm/user/NamanOG" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/last-fm.svg" alt="">Last.fm</a>
+
+        <a class="button button-whatsapp"
+          href="https://wa.me/+919300681625?text=I%20wanted%20to%20Connect%20with%20you" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/whatsapp.svg" alt="">WhatsApp</a>
+
+          <a class="button button-monkeytype"
+          href="https://monkeytype.com/profile/NamanOG" target="_blank" rel="noopener"
+          role="button"><img class="icon" src="images/icons/monkeytype.svg" alt="">MonkeyType</a>
+
       </div>
     </div>
   </div>
+
+  <!-- Typing text effect -->
+  <div id="typing-effect"></div>
+  <script>
+    const text = "Click any of the below Socials to connect with me !";
+    const typingSpeed = 90;
+    const deleteSpeed = 40;
+    const pauseTime = 2000;
+
+    let i = 0;
+    let isTyping = true;
+
+    const typeAndDelete = () => {
+      if (isTyping) {
+        if (i < text.length) {
+          document.getElementById("typing-effect").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typeAndDelete, typingSpeed);
+        } else {
+          isTyping = false;
+          setTimeout(typeAndDelete, pauseTime);
+        }
+      } else {
+        if (i > 0) {
+          document.getElementById("typing-effect").innerHTML = text.substring(0, i - 1);
+          i--;
+          setTimeout(typeAndDelete, deleteSpeed);
+        } else {
+          isTyping = true;
+          setTimeout(typeAndDelete, typingSpeed);
+        }
+      }
+    }
+
+    window.onload = typeAndDelete;
+  </script>
 
 </body>
 
