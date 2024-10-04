@@ -1,7 +1,7 @@
 # LinkFolio
 
 ## Overview
-Welcome to LinkFolio! This platform allows you to share and showcase various links related to your projects, achievements, or anything you want to highlight.
+Welcome to LinkFolio ! This platform allows you to share and showcase various links related to your projects, achievements, or anything you want to highlight.
 
 ## Features
 - **Easy Sharing:** Quickly share all your Social media platforms.
