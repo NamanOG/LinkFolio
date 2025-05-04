@@ -1,5 +1,7 @@
 # LinkFolio
 
+![LinkFolio](https://i.ibb.co/HL0XgxrM/Screenshot-123.png)
+
 ## Overview
 Welcome to LinkFolio ! This platform allows you to share and showcase various links related to your projects, achievements, or anything you want to highlight.
 
